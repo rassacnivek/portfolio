@@ -1,0 +1,22 @@
+import Layout from '@/components/layout'
+import ExternalLink from '@/components/base/externalLink'
+import RichList from '@/components/richList/richList'
+import { games } from '@/utils/games';
+
+# Games
+
+## I have always been a big tryharder in every game I have ever played and liked, and my username is *Moga*.
+\
+I'm an eager gamer since my childhood and I spent the last 20 years grinding every game that I touched. From all the Playstation ever made to my computer, passing by my mobile phone too, I love to compete myself and the community of each game I play.
+\
+\
+All these games allowed me to perfect my game sense, and I feel like a great shout caller thanks to this.
+\
+\
+Nowadays, because i founded my own family, my playing time reduced a bit, but I still find some time to continue mastering, or even discover new videos games.
+
+### List of my favourite games
+
+<RichList items={games} />
+
+export default ({ children }) => <Layout SEOTitle="Games">{children}</Layout>
