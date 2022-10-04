@@ -19,6 +19,13 @@ const Layout = ({ children, SEOTitle }) => {
                     url: 'https://cassarkevin.vercel.app/',
                     title: DEFAULT_TITLE,
                     description: DESCRIPTION,
+                    images: [
+                        {
+                            url: 'https://cassarkevin.vercel.app/cover.png',
+                            width: 1600,
+                            height: 1010,
+                        },
+                    ],
                     site_name: 'Kévin Cassar',
                     type: 'profile',
                     profile: {
