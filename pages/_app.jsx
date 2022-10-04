@@ -48,7 +48,7 @@ const _app = ({ Component, pageProps }) => {
                 openGraph={{
                     type: 'website',
                     locale: 'en_EN',
-                    url: 'https://www.cassarkevin.com/',
+                    url: 'https://cassarkevin.vercel.app/',
                     site_name: 'Kévin Cassar',
                 }}
             />

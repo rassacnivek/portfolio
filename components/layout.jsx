@@ -16,16 +16,9 @@ const Layout = ({ children, SEOTitle }) => {
                 defaultTitle={DEFAULT_TITLE}
                 description={DESCRIPTION}
                 openGraph={{
-                    url: 'https://www.cassarkevin.com/',
+                    url: 'https://cassarkevin.vercel.app/',
                     title: DEFAULT_TITLE,
                     description: DESCRIPTION,
-                    images: [
-                        {
-                            url: 'https://www.cassarkevin.com/cover.png',
-                            width: 1600,
-                            height: 1010,
-                        },
-                    ],
                     site_name: 'Kévin Cassar',
                     type: 'profile',
                     profile: {

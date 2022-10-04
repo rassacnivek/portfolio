@@ -2,7 +2,7 @@
 
 Welcome to my personnal portfolio website, hope you enjoy it !
 
-[Demo] https://www.cassarkevin.com
+[Demo] https://cassarkevin.vercel.app/
 
 ## Getting started
 
