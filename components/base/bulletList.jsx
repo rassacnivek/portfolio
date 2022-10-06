@@ -1,6 +1,6 @@
 import React from 'react';
 
-const BulletList = ({ items }) => {
+const BulletList = ({ items, className = '' }) => {
     return (
         <>
             {items &&
@@ -10,7 +10,7 @@ const BulletList = ({ items }) => {
                             key={i}
                             className="list-disc pl-6 marker:text-gray-300 dark:marker:text-gray-600"
                         >
-                            <li className="pl-2">{item}</li>
+                            <li className={`pl-2 ${className}`}>{item}</li>
                         </ul>
                     );
                 })}
